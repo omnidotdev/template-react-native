@@ -4,8 +4,11 @@ This is a [React Native](https://reactnative.dev) application powered by [Expo](
 
 ## Get started
 
-1. Install dependencies: `bun install`
-2. Start the app: `bun start`
+First, install dependencies with `bun install`.
+
+Then, start the app with `bun start` and follow the instructions in the output.
+
+Alternatively, you can start directly on a per-platform basis with `bun android`, `bun ios`, or `bun web`.
 
 In the output, you'll find options to open the app in a
 
