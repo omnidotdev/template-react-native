@@ -1,8 +1,16 @@
-# Omni Reality Capture
+# ⚛️ React Native Template
 
 This is a [React Native](https://reactnative.dev) application powered by [Expo](https://expo.dev).
 
-## Get started
+## Get Started
+
+Use [Tilt](https://tilt.dev) for a unified development experience:
+
+```bash
+tilt up
+```
+
+If you don't want to use Tilt, follow these steps:
 
 First, install dependencies with `bun install`.
 
