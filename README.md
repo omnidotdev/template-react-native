@@ -27,7 +27,7 @@ In the output, you'll find options to open the app in a
 
 ## Bare Workflow
 
-If you want full native control over your project (a “bare” React Native project), you can use [Expo Prebuild](https://docs.expo.dev/workflow/continuous-native-generation/#usage):
+If you want full native control over your project (sometimes known as a "bare" React Native project), you can use [Expo Prebuild](https://docs.expo.dev/workflow/continuous-native-generation/#usage):
 
 ```
 bun expo prebuild
