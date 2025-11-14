@@ -7,7 +7,9 @@ dist/
 web-build/
 expo-env.d.ts
 
-# Native
+# native
+/ios
+/android
 .kotlin/
 *.orig.*
 *.jks
@@ -19,12 +21,8 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
-# local env files
+# environment
 .env*.local
 
 # TypeScript
 *.tsbuildinfo
-
-# generated native folders
-/ios
-/android
