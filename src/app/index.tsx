@@ -1,5 +1,8 @@
 import { Text, View } from "react-native";
 
+/**
+ * Index page.
+ */
 const Index = () => (
   <View
     style={{
