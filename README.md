@@ -25,9 +25,9 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## Eject to Bare Workflow
+## Bare Workflow
 
-If you want full native control over your project (bare React Native), you can eject from Expo:
+If you want full native control over your project (a “bare” React Native project), you can use [Expo Prebuild](https://docs.expo.dev/workflow/continuous-native-generation/#usage):
 
 ```
 bun expo prebuild
@@ -37,11 +37,7 @@ bun expo run:ios
 
 `prebuild` generates the native iOS and Android projects.
 
-`run:android`/`run:ios` builds and runs the app on the respective platform.
-
-After ejecting, you can use normal React Native CLI commands and modify native code directly.
-
-Keep in mind ejecting is **irreversible**: once ejected, you no longer get all Expo Go features automatically.
+`run:android`/`run:ios` builds and runs the app on the respective platform. After prebuilding, you can modify native code directly and use any React Native library with custom native modules.
 
 ## License
 
