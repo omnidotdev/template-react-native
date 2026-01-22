@@ -1,9 +1,9 @@
 import { Text, View } from "react-native";
 
 /**
- * Index page.
+ * Home (index) screen.
  */
-const Index = () => (
+const HomeScreen = () => (
   <View
     style={{
       flex: 1,
@@ -63,4 +63,4 @@ const Index = () => (
   </View>
 );
 
-export default Index;
+export default HomeScreen;
