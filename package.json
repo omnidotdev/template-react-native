@@ -21,7 +21,7 @@
     "@changesets/cli": "^2.29.8",
     "@types/react": "~19.2.9",
     "husky": "^9.1.7",
-    "knip": "^5.82.1",
+    "knip": "^6.0.0",
     "typescript": "~5.9.3"
   },
   "dependencies": {
